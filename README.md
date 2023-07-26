@@ -1,5 +1,25 @@
 # Huckleberry Agency Website
 
+## My reflections
+
+1. The approach
+   When given a design, e.g. a Figma file, a good approach is to first a. layout: get everything into a broadly right position and then b. work on detailed styles section by section
+
+2. Assigning responsibilities
+   Different containers in this project: header, main, .max-width-wrapper, .intro-chunk, .card have different responsibilities. Put into some design and thoughts when assigning them,
+
+- biggest containers e.g. header and main should only have very general rules applied such as background-color
+- .max-width-container should only make sure that it puts a max width constraint on its child and there's a decent padding to make it readable
+- .card and .intro-chunk inside the max width wrapper can now have their _individual_ styles, such as different vertical paddings (horizontal ones are same in order to align), border styles, etc.
+
+This makes the architecture clearer and increases code reusability.
+
+3. CSS selectors
+   A refresher:
+   main .max-width-wrapper vs main.max-width-wrapper
+
+---
+
 In this workshop, you'll build a minimal landing page for an agency.
 
 This mockup is built entirely using _flow layout_: no Flexbox, no grid, no absolute positioning, no media queries. It relies heavily on padding, margin, and border, as well as some of the tricks we learned in Module 1.
