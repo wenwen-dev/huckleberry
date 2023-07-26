@@ -13,6 +13,9 @@ body {
 
 main {
   background-color: #666666;
+  border-top: 8px solid hsl(0deg, 0%, 60%);
+  padding-top: 72px;
+  padding-bottom: 72px;
 }
 
 .title {
@@ -25,21 +28,39 @@ main {
   max-width: 768px;
   margin-left: auto;
   margin-right: auto;
-  padding: 96px 24px 64px;
   background-color: #FFFFFF;
-  border: 2px solid blue;
+  padding-left: 24px;
+  padding-right: 24px;
+  /* border: 2px solid blue; */
+}
+
+header .max-width-wrapper {
+  padding-top: 96px;
+  padding-bottom: 64px;
+}
+
+main .max-width-wrapper {
+  padding-top: 8px;
+  padding-bottom: 24px;
+  border-bottom: 8px solid hsl(0deg, 0%, 60%);
 }
 
 .intro-chunk {
   max-width: 415px;
 }
 
-.max-width-wrapper {
 
+h2 {
+  margin: 0;
 }
 
-main.max-width-wrapper {
-  max-width: 800px;
+.indented-heading {
+  background-color: #FFbF00;
+  width: fit-content;
+  padding: 16px 32px;
+  border-bottom: 8px solid #CC9900;
+  margin-left: -32px;
+  margin-bottom: 24px;
 }
 
 p {
