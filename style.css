@@ -10,3 +10,50 @@ body {
 }
 
 /* Add styles here! */
+
+main {
+  background-color: #666666;
+}
+
+.title {
+  margin-bottom: 48px;
+  margin-top: 0;
+  font-size: 2rem;
+}
+
+.max-width-wrapper {
+  max-width: 768px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 96px 24px 64px;
+  background-color: #FFFFFF;
+  border: 2px solid blue;
+}
+
+.intro-chunk {
+  max-width: 415px;
+}
+
+.max-width-wrapper {
+
+}
+
+main.max-width-wrapper {
+  max-width: 800px;
+}
+
+p {
+  font-size: 1.25rem;
+  margin-bottom: 16px;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+strong {
+  font-weight: 800;
+  color: #009966
+}
+
+/* TODO: 1. think about what units to use on margin/paddings */
