@@ -2,11 +2,13 @@
 
 ## My reflections
 
-1. The approach
-   When given a design, e.g. a Figma file, a good approach is to first a. layout: get everything into a broadly right position and then b. work on detailed styles section by section
+### The approach
 
-2. Assigning responsibilities
-   Different containers in this project: header, main, .max-width-wrapper, .intro-chunk, .card have different responsibilities. Put into some design and thoughts when assigning them,
+When given a design, e.g. a Figma file, a good approach is to first a. layout: get everything into a broadly right position and then b. work on detailed styles section by section
+
+### Assigning responsibilities
+
+Different containers in this project: header, main, .max-width-wrapper, .intro-chunk, .card have different responsibilities. Put into some design and thoughts when assigning them,
 
 - biggest containers e.g. header and main should only have very general rules applied such as background-color
 - .max-width-container should only make sure that it puts a max width constraint on its child and there's a decent padding to make it readable
@@ -14,9 +16,10 @@
 
 This makes the architecture clearer and increases code reusability.
 
-3. CSS selectors
-   A refresher:
-   main .max-width-wrapper vs main.max-width-wrapper
+### CSS selectors
+
+A refresher:
+main .max-width-wrapper vs main.max-width-wrapper
 
 ---
 
